@@ -1,0 +1,61 @@
+
+
+#top{
+    background: #3a945b;
+    color: #ffffff;
+}
+#menu{
+    background: #cccccc;
+    height: 40px;
+}
+#menu a{
+    color: #333333;
+    display: block;
+    height: 40px;
+    min-width: 60px;
+    font-size: 16px;
+    padding: 8px 8px;
+    margin: 0 -10px;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+
+}
+#menu a:hover{
+    background: #b9b9b9;
+}
+
+.pd-5{ padding: 5px !important; }
+.pd-10{ padding: 10px !important; }
+.pd-15{ padding: 15px !important; }
+
+.paragraph{}
+
+.paragraph > a.link-paragraph{
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    padding: 5px;
+    background: #d8d8d8;
+}
+
+.paragraph > .content-paragraph{
+    display: none;
+    height: auto;
+}
+
+.list{
+    height: auto;
+    margin: 0 0 5px 0
+}
+.list  a{
+    color: #333333 !important;
+}
+
+#botaoTema {
+    background: #EEBD6F;
+}
+#botaoPesquisa{
+    background-color: #CCCCCC;
+}
